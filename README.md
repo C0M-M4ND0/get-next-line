@@ -4,7 +4,7 @@ see the ``en.subject.pdf``
 # FINALE GRADE : 125/100
 Mandatory part : 100/100
 
-Bonus : 25/100
+Bonus : 25/25
 
 # HOW TO USE IT 
 Using "gcc -Wall -Wextra -Werror main.c(```You must Create it```) get_next_line.c get_next_line_utils.c -D BUFFER_SIZE= </put value> -o get_next_line" will create the get_next_line executable.
