@@ -6,7 +6,7 @@
 /*   By: oabdelha <oabdelha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/18 09:42:29 by oabdelha          #+#    #+#             */
-/*   Updated: 2021/11/23 11:38:48 by oabdelha         ###   ########.fr       */
+/*   Updated: 2022/03/24 09:23:10 by oabdelha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,6 +81,8 @@ char	*ft_helper(int fd, char *backup, char *buff, int i)
 		if (!temp)
 		{
 			temp = malloc(1 * sizeof(char));
+			if (temp == NULL)
+				return (NULL);
 			temp[0] = '\0';
 		}
 		backup = ft_strjoin(temp, buff);
